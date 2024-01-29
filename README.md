@@ -34,7 +34,7 @@ Finally, we took a closer look into the yearly changes of inflation and the fina
 
 ### Citation   
 ```
-@article{024-01-GermanCrimeAnalysis,
+@article{2024-01-GermanCrimeAnalysis,
   title={Exploring Economical Influences on Germany’s Crime Rates 1976-2020},
   author={Seyda Betul Aydin, Csenge Frater, Melis Oktayoglu},
   year={2024}
