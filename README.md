@@ -14,7 +14,7 @@ After manual clustering the 26 types of crime data to have groups for visualizat
 
 
 ### Clustering the crime types
-![clustering](doc/fig/fig_hierarchicalClustering.png "Crime types hierarchical clustering")
+<img src="doc/fig/fig_hierarchicalClustering.png" alt="Crime types hierarchical clustering" width="50%" />
 
 We used hierarchical clustering with random forest to see which types of crimes have similar trends over the years for an analytical clusterization of our data, we observed the right-hand 4 groups to be the financially related crime types, and we used this cluster as our "Financial" cluster for further analysis with the economic data.
 
