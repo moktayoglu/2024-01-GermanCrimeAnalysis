@@ -30,7 +30,13 @@ Then, we used this financial group to see how it correlates with the economic in
 <p align="center">
 <img src="doc/fig/fig_financialCrime-InflationChange.png" alt="Trend analysis for inflation and financial crime" width="75%" />
 </p>
+Finally, we took a closer look into the yearly changes of inflation and the financial crime cluster.
 
-
-
-
+### Citation   
+```
+@article{024-01-GermanCrimeAnalysis,
+  title={Exploring Economical Influences on Germany’s Crime Rates 1976-2020},
+  author={Seyda Betul Aydin, Csenge Frater, Melis Oktayoglu},
+  year={2024}
+}
+```   
