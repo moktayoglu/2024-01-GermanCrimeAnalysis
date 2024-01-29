@@ -8,24 +8,28 @@ and the economic data from [the World Bank](https://data.worldbank.org/country/g
 
 ## Analysis
 ### Identifying German Crime Rate Changes (1976-2020)
-![yearly change plot](doc/fig/fig_crimeChanges.png "Crime rate change per year")
-
+<p align="center">
+<img src="doc/fig/fig_crimeChanges.png" alt="Crime rate change per year" width="75%" />
+</p>
 After manual clustering the 26 types of crime data to have groups for visualization, we explored the changing trends in the German crime rates, specifically we observed a peak in the total crime rates in 2007.
 
 
 ### Clustering the crime types
-<img src="doc/fig/fig_hierarchicalClustering.png" alt="Crime types hierarchical clustering" width="50%" />
-
+<p align="center">
+<img src="doc/fig/fig_hierarchicalClustering.png" alt="Crime types hierarchical clustering" width="75%" />
+</p>
 We used hierarchical clustering with random forest to see which types of crimes have similar trends over the years for an analytical clusterization of our data, we observed the right-hand 4 groups to be the financially related crime types, and we used this cluster as our "Financial" cluster for further analysis with the economic data.
 
 ### Correlation with economic indicators 
-![heatmap](doc/fig/fig_heatmap.png "Crime types vs economical indicators heatmap")
-
+<p align="center">
+<img src="doc/fig/fig_heatmap.png" alt="Crime types vs economical indicators heatmap" width="75%" />
+</p>
 Then, we used this financial group to see how it correlates with the economic indicators, after taking the year-to-year change difference of the crime rates. As can be seen, we found a 0.42 correlation with financial crimes with inflation.
 
 ### Yearly changes in inflation and financial crime 
-![inflation_vs_crime](doc/fig/fig_financialCrime-InflationChange.png "Trend analysis for inflation and financial crime")
-
+<p align="center">
+<img src="doc/fig/fig_financialCrime-InflationChange.png" alt="Trend analysis for inflation and financial crime" width="75%" />
+</p>
 
 
 
