@@ -138,7 +138,7 @@ kmeans_n = 6
 normalize = True
 
 # Specify the file path
-file_path = 'data_crime_clear.xlsx'
+file_path = 'dat/data_crime_clear.xlsx'
 # Read the Excel file
 data = pd.read_excel(file_path)
 data = data.set_index('Type of criminal offence').transpose()
